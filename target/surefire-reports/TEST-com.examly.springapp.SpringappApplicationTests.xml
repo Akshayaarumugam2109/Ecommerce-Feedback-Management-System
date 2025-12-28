@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="5.529" tests="80" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="5.433" tests="80" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter3167980354046031762.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-28T17-22-43_869-jvmRun1 surefire9431732787958001313tmp surefire_017318324058639543229tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter1233418125096189676.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-28T18-00-58_995-jvmRun1 surefire14442925177173994445tmp surefire_014565747694224736363tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.4.12/spring-boot-starter-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.12/spring-boot-starter-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.12/spring-boot-starter-logging-3.4.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.5.21/logback-classic-1.5.21.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.5.21/logback-core-1.5.21.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.4.12/spring-boot-starter-jdbc-3.4.12.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.6.36.Final/hibernate-core-6.6.36.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.jar:/home/coder/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.4.12/spring-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.4.12/spring-data-commons-3.4.12.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.12/spring-boot-starter-web-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.12/spring-boot-starter-json-3.4.12.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.5/jackson-databind-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.5/jackson-annotations-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.5/jackson-core-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.5/jackson-datatype-jdk8-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.5/jackson-datatype-jsr310-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.5/jackson-module-parameter-names-2.18.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.12/spring-boot-starter-tomcat-3.4.12.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.49/tomcat-embed-core-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.49/tomcat-embed-el-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.49/tomcat-embed-websocket-10.1.49.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.2.14/spring-webmvc-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.4.12/spring-boot-starter-aop-3.4.12.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.12/spring-boot-devtools-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.4.12/spring-boot-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.12/spring-boot-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.12/spring-boot-starter-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.4.12/spring-boot-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.12/spring-boot-test-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/home/coder/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/home/coder/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter3167980354046031762.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter1233418125096189676.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -48,7 +48,7 @@
     <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="11612"/>
+    <property name="PID" value="29960"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.328">
-    <system-out><![CDATA[17:22:44.577 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:22:44.663 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
-17:22:44.765 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.326">
+    <system-out><![CDATA[18:00:59.846 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:00:59.930 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
+18:01:00.032 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -73,20 +73,20 @@
 
  :: Spring Boot ::               (v3.4.12)
 
-2025-12-28T17:22:45.042Z  INFO 11612 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 11612 (started by coder in /home/coder/project/workspace/springapp)
-2025-12-28T17:22:45.043Z  INFO 11612 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-12-28T17:22:45.658Z  INFO 11612 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-28T17:22:45.707Z  INFO 11612 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
-2025-12-28T17:22:46.121Z  INFO 11612 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-28T17:22:46.149Z  INFO 11612 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
-2025-12-28T17:22:46.170Z  INFO 11612 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-28T17:22:46.357Z  INFO 11612 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-28T17:22:46.377Z  INFO 11612 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-28T17:22:46.499Z  INFO 11612 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@671da0f9
-2025-12-28T17:22:46.500Z  INFO 11612 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-28T17:22:46.516Z  WARN 11612 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-28T17:22:46.517Z  WARN 11612 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-12-28T17:22:46.530Z  INFO 11612 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-28T18:01:00.214Z  INFO 29960 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 29960 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-28T18:01:00.215Z  INFO 29960 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-28T18:01:00.749Z  INFO 29960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-28T18:01:00.795Z  INFO 29960 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 6 JPA repository interfaces.
+2025-12-28T18:01:01.242Z  INFO 29960 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-28T18:01:01.270Z  INFO 29960 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-28T18:01:01.290Z  INFO 29960 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-28T18:01:01.487Z  INFO 29960 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-28T18:01:01.508Z  INFO 29960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-28T18:01:01.623Z  INFO 29960 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@581918f6
+2025-12-28T18:01:01.624Z  INFO 29960 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-28T18:01:01.639Z  WARN 29960 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-28T18:01:01.640Z  WARN 29960 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-28T18:01:01.652Z  INFO 29960 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -94,9 +94,9 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-28T17:22:47.099Z  INFO 11612 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-28T18:01:02.223Z  INFO 29960 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: alter table feedback drop foreign key FKo67etw5bbq0e3ly53tgrdtw3j
-2025-12-28T17:22:47.134Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKo67etw5bbq0e3ly53tgrdtw3j" via JDBC [Table 'appdb.feedback' doesn't exist]
+2025-12-28T18:01:02.256Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKo67etw5bbq0e3ly53tgrdtw3j" via JDBC [Table 'appdb.feedback' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table feedback drop foreign key FKo67etw5bbq0e3ly53tgrdtw3j" via JDBC [Table 'appdb.feedback' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -230,7 +230,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.feedback' doesn't exis
 	... 119 common frames omitted
 
 Hibernate: alter table feedback drop foreign key FKlsfunb44jdljfmbx4un8s4waa
-2025-12-28T17:22:47.140Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKlsfunb44jdljfmbx4un8s4waa" via JDBC [Table 'appdb.feedback' doesn't exist]
+2025-12-28T18:01:02.262Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKlsfunb44jdljfmbx4un8s4waa" via JDBC [Table 'appdb.feedback' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table feedback drop foreign key FKlsfunb44jdljfmbx4un8s4waa" via JDBC [Table 'appdb.feedback' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -364,7 +364,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.feedback' doesn't exis
 	... 119 common frames omitted
 
 Hibernate: alter table feedback drop foreign key FKj3ukcayt9yhgqstwxajr42qjo
-2025-12-28T17:22:47.144Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKj3ukcayt9yhgqstwxajr42qjo" via JDBC [Table 'appdb.feedback' doesn't exist]
+2025-12-28T18:01:02.266Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table feedback drop foreign key FKj3ukcayt9yhgqstwxajr42qjo" via JDBC [Table 'appdb.feedback' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table feedback drop foreign key FKj3ukcayt9yhgqstwxajr42qjo" via JDBC [Table 'appdb.feedback' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -498,7 +498,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.feedback' doesn't exis
 	... 119 common frames omitted
 
 Hibernate: alter table orders drop foreign key FK14n2jkmoyhpimhracvcdy7sst
-2025-12-28T17:22:47.147Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table orders drop foreign key FK14n2jkmoyhpimhracvcdy7sst" via JDBC [Table 'appdb.orders' doesn't exist]
+2025-12-28T18:01:02.269Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table orders drop foreign key FK14n2jkmoyhpimhracvcdy7sst" via JDBC [Table 'appdb.orders' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table orders drop foreign key FK14n2jkmoyhpimhracvcdy7sst" via JDBC [Table 'appdb.orders' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -632,7 +632,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.orders' doesn't exist
 	... 119 common frames omitted
 
 Hibernate: alter table product drop foreign key FK1mtsbur82frn64de7balymq9s
-2025-12-28T17:22:47.150Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table product drop foreign key FK1mtsbur82frn64de7balymq9s" via JDBC [Table 'appdb.product' doesn't exist]
+2025-12-28T18:01:02.272Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table product drop foreign key FK1mtsbur82frn64de7balymq9s" via JDBC [Table 'appdb.product' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table product drop foreign key FK1mtsbur82frn64de7balymq9s" via JDBC [Table 'appdb.product' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -766,7 +766,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.product' doesn't exist
 	... 119 common frames omitted
 
 Hibernate: alter table rating drop foreign key FKq549kekqyw73qvq1md7rdk9un
-2025-12-28T17:22:47.153Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table rating drop foreign key FKq549kekqyw73qvq1md7rdk9un" via JDBC [Table 'appdb.rating' doesn't exist]
+2025-12-28T18:01:02.275Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table rating drop foreign key FKq549kekqyw73qvq1md7rdk9un" via JDBC [Table 'appdb.rating' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rating drop foreign key FKq549kekqyw73qvq1md7rdk9un" via JDBC [Table 'appdb.rating' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -900,7 +900,7 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'appdb.rating' doesn't exist
 	... 119 common frames omitted
 
 Hibernate: alter table rating drop foreign key FKlkuwie0au2dru36asng9nywmh
-2025-12-28T17:22:47.155Z  WARN 11612 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table rating drop foreign key FKlkuwie0au2dru36asng9nywmh" via JDBC [Table 'appdb.rating' doesn't exist]
+2025-12-28T18:01:02.278Z  WARN 29960 --- [           main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table rating drop foreign key FKlkuwie0au2dru36asng9nywmh" via JDBC [Table 'appdb.rating' doesn't exist]
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table rating drop foreign key FKlkuwie0au2dru36asng9nywmh" via JDBC [Table 'appdb.rating' doesn't exist]
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
@@ -1052,22 +1052,22 @@ Hibernate: alter table orders add constraint FK14n2jkmoyhpimhracvcdy7sst foreign
 Hibernate: alter table product add constraint FK1mtsbur82frn64de7balymq9s foreign key (category_id) references category (category_id)
 Hibernate: alter table rating add constraint FKq549kekqyw73qvq1md7rdk9un foreign key (customer_id) references user (user_id)
 Hibernate: alter table rating add constraint FKlkuwie0au2dru36asng9nywmh foreign key (product_id) references product (product_id)
-2025-12-28T17:22:47.524Z  INFO 11612 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-28T17:22:48.283Z  WARN 11612 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-28T17:22:48.763Z  INFO 11612 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-12-28T17:22:48.763Z  INFO 11612 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-12-28T17:22:48.765Z  INFO 11612 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-12-28T17:22:48.791Z  INFO 11612 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 4.035 seconds (process running for 4.744)
+2025-12-28T18:01:02.664Z  INFO 29960 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-28T18:01:03.383Z  WARN 29960 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-28T18:01:03.888Z  INFO 29960 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-28T18:01:03.888Z  INFO 29960 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-28T18:01:03.890Z  INFO 29960 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-12-28T18:01:03.913Z  INFO 29960 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 3.889 seconds (process running for 4.696)
 ]]></system-out>
   </testcase>
-  <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
   <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day4_test_CategoryModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_ProductModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_ProductModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day4_test_Feedback_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day4_test_Rating_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_User_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_User_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day4_test_Product_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="test_Product_Has_Id_Annotation_On_Field" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_testCategoryRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
@@ -1077,261 +1077,261 @@ Hibernate: alter table rating add constraint FKlkuwie0au2dru36asng9nywmh foreign
   <testcase name="Day5_testUserRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_ProductRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day5_test_CategoryRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day5_test_FeedbackRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_RatingRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day5_test_FeedbackRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_RatingRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day5_test_UserRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day6_test_CategoryController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_ProductController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_ProductController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day6_test_FeedbackController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day6_test_RatingController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day6_test_UserController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_CategoryController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_CategoryController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day6_test_ProductController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day6_test_CategoryController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_CategoryController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_CategoryController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day6_test_CategoryController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_testCreateCategory_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.09">
-    <system-out><![CDATA[2025-12-28T17:22:49.283Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [null]
-2025-12-28T17:22:49.284Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
+  <testcase name="Day6_test_CategoryController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_CategoryController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day6_test_CategoryController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day6_testCreateCategory_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.105">
+    <system-out><![CDATA[2025-12-28T18:01:04.416Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [null]
+2025-12-28T18:01:04.417Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testGetAllCategories_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.115">
-    <system-out><![CDATA[2025-12-28T17:22:49.313Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllCategories with arguments: []
-2025-12-28T17:22:49.313Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllCategories with arguments: []
+  <testcase name="Day6_testGetAllCategories_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.155">
+    <system-out><![CDATA[2025-12-28T18:01:04.452Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllCategories with arguments: []
+2025-12-28T18:01:04.452Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllCategories with arguments: []
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0
-2025-12-28T17:22:49.422Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllCategories completed successfully in 109 ms
-2025-12-28T17:22:49.422Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllCategories
+2025-12-28T18:01:04.602Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllCategories completed successfully in 150 ms
+2025-12-28T18:01:04.602Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllCategories
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testCreateCategory_EmptyName_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
-    <system-out><![CDATA[2025-12-28T17:22:49.437Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [com.examly.springapp.model.Category@2fba15c5]
-2025-12-28T17:22:49.438Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
+  <testcase name="Day6_testCreateCategory_EmptyName_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
+    <system-out><![CDATA[2025-12-28T18:01:04.618Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [com.examly.springapp.model.Category@6f8b1902]
+2025-12-28T18:01:04.618Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
 ]]></system-out>
   </testcase>
-  <testcase name="Day7_test_CategoryController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day7_test_CategoryController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day7_test_ProductController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_CategoryController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day7_test_CategoryController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.005"/>
+  <testcase name="Day7_test_ProductController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.009"/>
   <testcase name="Day7_test_UserController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day7_test_ProductController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day7_test_UserController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day7_test_RatingController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_UserController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_RatingController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day8_test_CategoryService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_ProductService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_FeedbackService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day8_test_RatingService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day8_test_CategoryServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_CategoryServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_ProductServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_FeedbackServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day8_test_RatingServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day8_test_RatingServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_UserServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day8_testAddCategory" classname="com.examly.springapp.SpringappApplicationTests" time="0.062">
-    <system-out><![CDATA[2025-12-28T17:22:49.490Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [com.examly.springapp.model.Category@eb1d7c8]
-2025-12-28T17:22:49.490Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addCategory with arguments: [com.examly.springapp.model.Category@eb1d7c8]
+  <testcase name="Day8_testAddCategory" classname="com.examly.springapp.SpringappApplicationTests" time="0.064">
+    <system-out><![CDATA[2025-12-28T18:01:04.680Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addCategory with arguments: [com.examly.springapp.model.Category@3f1b4a14]
+2025-12-28T18:01:04.680Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addCategory with arguments: [com.examly.springapp.model.Category@3f1b4a14]
 Hibernate: insert into category (category_name) values (?)
-2025-12-28T17:22:49.521Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addCategory completed successfully in 31 ms
-2025-12-28T17:22:49.521Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
+2025-12-28T18:01:04.712Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addCategory completed successfully in 32 ms
+2025-12-28T18:01:04.712Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addCategory
 ]]></system-out>
   </testcase>
   <testcase name="Day8_testGetAllCategories" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
-    <system-out><![CDATA[2025-12-28T17:22:49.553Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllCategories with arguments: []
-2025-12-28T17:22:49.553Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllCategories with arguments: []
+    <system-out><![CDATA[2025-12-28T18:01:04.745Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllCategories with arguments: []
+2025-12-28T18:01:04.746Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllCategories with arguments: []
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0
-2025-12-28T17:22:49.558Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllCategories completed successfully in 5 ms
-2025-12-28T17:22:49.558Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllCategories
+2025-12-28T18:01:04.750Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllCategories completed successfully in 4 ms
+2025-12-28T18:01:04.751Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllCategories
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testGetCategoryById" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
-    <system-out><![CDATA[2025-12-28T17:22:49.566Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoryById with arguments: [1]
-2025-12-28T17:22:49.566Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoryById with arguments: [1]
+  <testcase name="Day8_testGetCategoryById" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
+    <system-out><![CDATA[2025-12-28T18:01:04.760Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoryById with arguments: [1]
+2025-12-28T18:01:04.760Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoryById with arguments: [1]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_id=?
-2025-12-28T17:22:49.574Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoryById completed successfully in 8 ms
-2025-12-28T17:22:49.574Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoryById
+2025-12-28T18:01:04.768Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoryById completed successfully in 8 ms
+2025-12-28T18:01:04.768Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoryById
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testUpdateCategory" classname="com.examly.springapp.SpringappApplicationTests" time="0.147">
-    <system-out><![CDATA[2025-12-28T17:22:49.580Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateCategory with arguments: [1, com.examly.springapp.model.Category@2a0a178f]
-2025-12-28T17:22:49.580Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateCategory with arguments: [1, com.examly.springapp.model.Category@2a0a178f]
+  <testcase name="Day8_testUpdateCategory" classname="com.examly.springapp.SpringappApplicationTests" time="0.189">
+    <system-out><![CDATA[2025-12-28T18:01:04.774Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateCategory with arguments: [1, com.examly.springapp.model.Category@57421698]
+2025-12-28T18:01:04.774Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateCategory with arguments: [1, com.examly.springapp.model.Category@57421698]
 Hibernate: select count(*) from category c1_0 where c1_0.category_id=?
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_id=?
 Hibernate: update category set category_name=? where category_id=?
-2025-12-28T17:22:49.722Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateCategory completed successfully in 142 ms
-2025-12-28T17:22:49.722Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateCategory
+2025-12-28T18:01:04.957Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateCategory completed successfully in 183 ms
+2025-12-28T18:01:04.957Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateCategory
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_PageNumberApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.022">
-    <system-out><![CDATA[2025-12-28T17:22:49.728Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
-2025-12-28T17:22:49.728Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
+  <testcase name="Day9_testPagination_PageNumberApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.021">
+    <system-out><![CDATA[2025-12-28T18:01:04.963Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
+2025-12-28T18:01:04.964Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
-2025-12-28T17:22:49.734Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 6 ms
-2025-12-28T17:22:49.734Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
-2025-12-28T17:22:49.738Z  WARN 11612 --- [           main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2025-12-28T18:01:04.970Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 6 ms
+2025-12-28T18:01:04.970Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:04.973Z  WARN 29960 --- [           main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_PageSizeApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
-    <system-out><![CDATA[2025-12-28T17:22:49.750Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [1, 10]
-2025-12-28T17:22:49.750Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [1, 10]
+  <testcase name="Day9_testPagination_PageSizeApplied" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <system-out><![CDATA[2025-12-28T18:01:04.985Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [1, 10]
+2025-12-28T18:01:04.985Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [1, 10]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
 Hibernate: select count(c1_0.category_id) from category c1_0
-2025-12-28T17:22:49.755Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 5 ms
-2025-12-28T17:22:49.755Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:04.990Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 5 ms
+2025-12-28T18:01:04.990Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_SortingPresent" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
-    <system-out><![CDATA[2025-12-28T17:22:49.760Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
-2025-12-28T17:22:49.760Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
+  <testcase name="Day9_testPagination_SortingPresent" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[2025-12-28T18:01:04.995Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
+2025-12-28T18:01:04.995Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
-2025-12-28T17:22:49.763Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 3 ms
-2025-12-28T17:22:49.763Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:04.997Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
+2025-12-28T18:01:04.997Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_ContentArrayExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.014">
-    <system-out><![CDATA[2025-12-28T17:22:49.770Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
-2025-12-28T17:22:49.770Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
+  <testcase name="Day9_testPagination_ContentArrayExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+    <system-out><![CDATA[2025-12-28T18:01:05.004Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
+2025-12-28T18:01:05.004Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
-2025-12-28T17:22:49.772Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
-2025-12-28T17:22:49.772Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:05.006Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
+2025-12-28T18:01:05.006Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_TotalElementsExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
-    <system-out><![CDATA[2025-12-28T17:22:49.785Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
-2025-12-28T17:22:49.785Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
+  <testcase name="Day9_testPagination_TotalElementsExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
+    <system-out><![CDATA[2025-12-28T18:01:05.018Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
+2025-12-28T18:01:05.018Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
-2025-12-28T17:22:49.789Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 4 ms
-2025-12-28T17:22:49.789Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:05.020Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
+2025-12-28T18:01:05.021Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
 ]]></system-out>
   </testcase>
   <testcase name="Day9_testPagination_TotalPagesExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
-    <system-out><![CDATA[2025-12-28T17:22:49.794Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
-2025-12-28T17:22:49.794Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
+    <system-out><![CDATA[2025-12-28T18:01:05.025Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getCategoriesWithPagination with arguments: [0, 5]
+2025-12-28T18:01:05.025Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getCategoriesWithPagination with arguments: [0, 5]
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 limit ?,?
-2025-12-28T17:22:49.796Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
-2025-12-28T17:22:49.796Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
+2025-12-28T18:01:05.027Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getCategoriesWithPagination completed successfully in 2 ms
+2025-12-28T18:01:05.027Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getCategoriesWithPagination
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.016">
-    <system-out><![CDATA[2025-12-28T17:22:49.803Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addProduct with arguments: [com.examly.springapp.model.Product@649a76c1]
-2025-12-28T17:22:49.803Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addProduct with arguments: [com.examly.springapp.model.Product@649a76c1]
+  <testcase name="Day10_testAddProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.017">
+    <system-out><![CDATA[2025-12-28T18:01:05.034Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addProduct with arguments: [com.examly.springapp.model.Product@78e3bebd]
+2025-12-28T18:01:05.034Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addProduct with arguments: [com.examly.springapp.model.Product@78e3bebd]
 Hibernate: insert into product (category_id,description,price,product_name,stock_quantity) values (?,?,?,?,?)
-2025-12-28T17:22:49.809Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addProduct completed successfully in 6 ms
-2025-12-28T17:22:49.809Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addProduct
+2025-12-28T18:01:05.042Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addProduct completed successfully in 8 ms
+2025-12-28T18:01:05.042Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addProduct
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllProducts" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
-    <system-out><![CDATA[2025-12-28T17:22:49.817Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllProducts with arguments: []
-2025-12-28T17:22:49.817Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllProductsList with arguments: []
+  <testcase name="Day10_testGetAllProducts" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
+    <system-out><![CDATA[2025-12-28T18:01:05.049Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllProducts with arguments: []
+2025-12-28T18:01:05.050Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllProductsList with arguments: []
 Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_id=?
-2025-12-28T17:22:49.824Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllProductsList completed successfully in 7 ms
-2025-12-28T17:22:49.825Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllProducts
+2025-12-28T18:01:05.055Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllProductsList completed successfully in 5 ms
+2025-12-28T18:01:05.055Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllProducts
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetProductById" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
-    <system-out><![CDATA[2025-12-28T17:22:49.831Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductById with arguments: [1]
-2025-12-28T17:22:49.832Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductById with arguments: [1]
+  <testcase name="Day10_testGetProductById" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
+    <system-out><![CDATA[2025-12-28T18:01:05.060Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductById with arguments: [1]
+2025-12-28T18:01:05.060Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductById with arguments: [1]
 Hibernate: select p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.product_id=?
-2025-12-28T17:22:49.835Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductById completed successfully in 3 ms
-2025-12-28T17:22:49.836Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductById
+2025-12-28T18:01:05.063Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductById completed successfully in 3 ms
+2025-12-28T18:01:05.063Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductById
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testUpdateProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.014">
-    <system-out><![CDATA[2025-12-28T17:22:49.845Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateProduct with arguments: [1, com.examly.springapp.model.Product@d7d984c]
-2025-12-28T17:22:49.845Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateProduct with arguments: [1, com.examly.springapp.model.Product@d7d984c]
+  <testcase name="Day10_testUpdateProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <system-out><![CDATA[2025-12-28T18:01:05.068Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateProduct with arguments: [1, com.examly.springapp.model.Product@38300447]
+2025-12-28T18:01:05.068Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateProduct with arguments: [1, com.examly.springapp.model.Product@38300447]
 Hibernate: select p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.product_id=?
 Hibernate: update product set category_id=?,description=?,price=?,product_name=?,stock_quantity=? where product_id=?
-2025-12-28T17:22:49.852Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateProduct completed successfully in 7 ms
-2025-12-28T17:22:49.853Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateProduct
+2025-12-28T18:01:05.072Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateProduct completed successfully in 4 ms
+2025-12-28T18:01:05.072Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateProduct
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.012">
-    <system-out><![CDATA[2025-12-28T17:22:49.859Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addUser with arguments: [com.examly.springapp.model.User@43347199]
-2025-12-28T17:22:49.859Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addUser with arguments: [com.examly.springapp.model.User@43347199]
+  <testcase name="Day10_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <system-out><![CDATA[2025-12-28T18:01:05.078Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: addUser with arguments: [com.examly.springapp.model.User@4f3d49e4]
+2025-12-28T18:01:05.078Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: addUser with arguments: [com.examly.springapp.model.User@4f3d49e4]
 Hibernate: insert into user (email,role,username) values (?,?,?)
-2025-12-28T17:22:49.864Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addUser completed successfully in 5 ms
-2025-12-28T17:22:49.864Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addUser
+2025-12-28T18:01:05.081Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: addUser completed successfully in 3 ms
+2025-12-28T18:01:05.081Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: addUser
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
-    <system-out><![CDATA[2025-12-28T17:22:49.870Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllUsers with arguments: []
-2025-12-28T17:22:49.871Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllUsers with arguments: []
+  <testcase name="Day10_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+    <system-out><![CDATA[2025-12-28T18:01:05.086Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getAllUsers with arguments: []
+2025-12-28T18:01:05.086Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getAllUsers with arguments: []
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0
-2025-12-28T17:22:49.874Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllUsers completed successfully in 3 ms
-2025-12-28T17:22:49.874Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllUsers
+2025-12-28T18:01:05.089Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getAllUsers completed successfully in 3 ms
+2025-12-28T18:01:05.089Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getAllUsers
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <system-out><![CDATA[2025-12-28T17:22:49.879Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUserById with arguments: [1]
-2025-12-28T17:22:49.879Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUserById with arguments: [1]
+  <testcase name="Day10_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+    <system-out><![CDATA[2025-12-28T18:01:05.093Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUserById with arguments: [1]
+2025-12-28T18:01:05.094Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUserById with arguments: [1]
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0 where u1_0.user_id=?
-2025-12-28T17:22:49.882Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUserById completed successfully in 3 ms
-2025-12-28T17:22:49.882Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUserById
+2025-12-28T18:01:05.096Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUserById completed successfully in 2 ms
+2025-12-28T18:01:05.096Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUserById
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
-    <system-out><![CDATA[2025-12-28T17:22:49.886Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateUser with arguments: [1, com.examly.springapp.model.User@5d9ccad2]
-2025-12-28T17:22:49.887Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateUser with arguments: [1, com.examly.springapp.model.User@5d9ccad2]
+  <testcase name="Day10_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[2025-12-28T18:01:05.100Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: updateUser with arguments: [1, com.examly.springapp.model.User@6dc010a2]
+2025-12-28T18:01:05.100Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: updateUser with arguments: [1, com.examly.springapp.model.User@6dc010a2]
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0 where u1_0.user_id=?
 Hibernate: update user set email=?,role=?,username=? where user_id=?
-2025-12-28T17:22:49.891Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateUser completed successfully in 4 ms
-2025-12-28T17:22:49.891Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateUser
+2025-12-28T18:01:05.104Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: updateUser completed successfully in 4 ms
+2025-12-28T18:01:05.104Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: updateUser
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testGetUsersByRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
-    <system-out><![CDATA[2025-12-28T17:22:49.899Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUsersByRole with arguments: [ADMIN]
-2025-12-28T17:22:49.899Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUsersByRole with arguments: [ADMIN]
+  <testcase name="Day11_testGetUsersByRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.013">
+    <system-out><![CDATA[2025-12-28T18:01:05.110Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUsersByRole with arguments: [ADMIN]
+2025-12-28T18:01:05.111Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUsersByRole with arguments: [ADMIN]
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0 where u1_0.role=?
-2025-12-28T17:22:49.906Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUsersByRole completed successfully in 7 ms
-2025-12-28T17:22:49.906Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUsersByRole
+2025-12-28T18:01:05.117Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUsersByRole completed successfully in 6 ms
+2025-12-28T18:01:05.117Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUsersByRole
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetProductsByCategoryName" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
-    <system-out><![CDATA[2025-12-28T17:22:49.911Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductsByCategoryName with arguments: [Electricals]
-2025-12-28T17:22:49.912Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByCategoryName with arguments: [Electricals]
+  <testcase name="Day12_testGetProductsByCategoryName" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+    <system-out><![CDATA[2025-12-28T18:01:05.121Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductsByCategoryName with arguments: [Electricals]
+2025-12-28T18:01:05.122Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByCategoryName with arguments: [Electricals]
 Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where c1_0.category_name=?
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_id=?
-2025-12-28T17:22:49.916Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByCategoryName completed successfully in 4 ms
-2025-12-28T17:22:49.916Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductsByCategoryName
+2025-12-28T18:01:05.125Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByCategoryName completed successfully in 3 ms
+2025-12-28T18:01:05.125Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductsByCategoryName
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetUserByUsernameAndRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.027">
-    <system-out><![CDATA[2025-12-28T17:22:49.921Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUserByUsernameAndRole with arguments: [janedoe, ADMIN]
-2025-12-28T17:22:49.921Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUserByUsernameAndRole with arguments: [janedoe, ADMIN]
+  <testcase name="Day12_testGetUserByUsernameAndRole" classname="com.examly.springapp.SpringappApplicationTests" time="0.011">
+    <system-out><![CDATA[2025-12-28T18:01:05.130Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUserByUsernameAndRole with arguments: [janedoe, ADMIN]
+2025-12-28T18:01:05.130Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUserByUsernameAndRole with arguments: [janedoe, ADMIN]
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0 where u1_0.username=? and u1_0.role=?
-2025-12-28T17:22:49.941Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUserByUsernameAndRole completed successfully in 20 ms
-2025-12-28T17:22:49.942Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUserByUsernameAndRole
+2025-12-28T18:01:05.134Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUserByUsernameAndRole completed successfully in 4 ms
+2025-12-28T18:01:05.134Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUserByUsernameAndRole
 ]]></system-out>
   </testcase>
   <testcase name="Day12_testGetUsersByRole_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <system-out><![CDATA[2025-12-28T17:22:49.949Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUsersByRole with arguments: [MANAGER]
-2025-12-28T17:22:49.949Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUsersByRole with arguments: [MANAGER]
+    <system-out><![CDATA[2025-12-28T18:01:05.141Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getUsersByRole with arguments: [MANAGER]
+2025-12-28T18:01:05.141Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getUsersByRole with arguments: [MANAGER]
 Hibernate: select u1_0.user_id,u1_0.email,u1_0.role,u1_0.username from user u1_0 where u1_0.role=?
-2025-12-28T17:22:49.951Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUsersByRole completed successfully in 2 ms
-2025-12-28T17:22:49.951Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUsersByRole
+2025-12-28T18:01:05.143Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getUsersByRole completed successfully in 2 ms
+2025-12-28T18:01:05.143Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getUsersByRole
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetProductByName" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
-    <system-out><![CDATA[2025-12-28T17:22:49.956Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductByName with arguments: [Updated Laptop]
-2025-12-28T17:22:49.957Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByName with arguments: [Updated Laptop]
+  <testcase name="Day12_testGetProductByName" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <system-out><![CDATA[2025-12-28T18:01:05.149Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductByName with arguments: [Updated Laptop]
+2025-12-28T18:01:05.149Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByName with arguments: [Updated Laptop]
 Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_name=?
 Hibernate: select c1_0.category_id,c1_0.category_name from category c1_0 where c1_0.category_id=?
-2025-12-28T17:22:49.961Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByName completed successfully in 4 ms
-2025-12-28T17:22:49.961Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductByName
+2025-12-28T18:01:05.152Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByName completed successfully in 3 ms
+2025-12-28T18:01:05.152Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductByName
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetProductByName_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <system-out><![CDATA[2025-12-28T17:22:49.966Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductByName with arguments: [UnknownProduct]
-2025-12-28T17:22:49.967Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByName with arguments: [UnknownProduct]
+  <testcase name="Day12_testGetProductByName_NotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+    <system-out><![CDATA[2025-12-28T18:01:05.157Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Executing controller method: getProductByName with arguments: [UnknownProduct]
+2025-12-28T18:01:05.157Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Starting service method: getProductsByName with arguments: [UnknownProduct]
 Hibernate: select p1_0.product_id,p1_0.category_id,p1_0.description,p1_0.price,p1_0.product_name,p1_0.stock_quantity from product p1_0 where p1_0.product_name=?
-2025-12-28T17:22:49.969Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByName completed successfully in 2 ms
-2025-12-28T17:22:49.969Z  INFO 11612 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductByName
+2025-12-28T18:01:05.159Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Service method: getProductsByName completed successfully in 2 ms
+2025-12-28T18:01:05.159Z  INFO 29960 --- [           main] com.examly.springapp.aop.LoggingAspect   : Completed controller method: getProductByName
 ]]></system-out>
   </testcase>
-  <testcase name="Day13_test_exception_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day13_test_exception_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day13_test_GlobalException_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day14test_configuration_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day15_testAOPLogFileExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day15_testAOPLogFileExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
 </testsuite>
